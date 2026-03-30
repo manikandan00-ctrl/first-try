@@ -1,0 +1,38 @@
+import javax.swing.*;
+import java.awt.event.*;
+
+public class CounterApp {
+    public static void main(String[] args) {
+        
+        JFrame frame = new JFrame("Simple Counter");
+
+        
+        JLabel label = new JLabel("Count: 0");
+        label.setBounds(120, 50, 100, 30);
+
+       
+        JButton button = new JButton("Increase");
+        button.setBounds(100, 100, 100, 30);
+
+        
+        final int[] count = {0};
+
+        
+        button.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                count[0]++;
+                label.setText("Count: " + count[0]);
+            }
+        });
+
+        
+        frame.add(label);
+        frame.add(button);
+
+       
+        frame.setSize(300, 250);
+        frame.setLayout(null);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setVisible(true);
+    }
+}

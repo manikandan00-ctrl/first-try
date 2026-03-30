@@ -1,0 +1,15 @@
+class A{
+  void display A(){
+    System.out.println("class A");
+  }
+}
+class B extends A{
+  void display B(){
+    System.out.println("class B");
+  }
+}
+class C extends b{
+  void display  C(){
+    System.out.println("class c");
+  }
+}

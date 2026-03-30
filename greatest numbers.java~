@@ -1,0 +1,13 @@
+import java.util.scanner;
+public class numbers{
+  public static void main(string srgs[]){
+    int a=sc.nextInt();
+    int b=sc.nextInt();
+    if (a>b){
+      system.out.println("biggest numbers");
+    }
+    else{
+      system.out.println("not a biggest number");
+    }
+  }
+}

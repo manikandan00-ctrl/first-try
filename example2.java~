@@ -1,0 +1,9 @@
+import java.util.Scanner;
+public class example{
+  public Static void main(Strings args[]){
+    Scanner sc=new Scanner(system.in);
+    String name=sc.next();
+    System.out.println("welcome to java");
+    
+  }
+}

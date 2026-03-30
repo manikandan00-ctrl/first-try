@@ -1,0 +1,10 @@
+class MyRunnable implements Runnable{
+  public void run(){
+    System.out.println(Thread using runnable);
+  }
+  public stayic void main(String args[]){
+    Thread t=new Thread();
+    MyRunnable r=new MyRunnable();
+    t.start();
+  }
+}

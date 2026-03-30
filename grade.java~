@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class grade{
+  public static void main(string[]args){
+    Scanner sc=new scanner(system.in);
+    int mark=sc.next int();
+    if (mark>=90)
+      system.out.println("Grade A");
+    else if (mark>=80)
+      system.out.println("grade B");
+     else if (mark>=70)
+      system.out.println("grade C");
+      else if (mark>=60)
+      system.out.println("grade d");
+      else
+        system.out.println("fail");
+  }
+}

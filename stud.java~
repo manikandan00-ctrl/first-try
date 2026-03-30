@@ -1,0 +1,25 @@
+import java.util.Scanner;
+class stud (
+  int sno;
+  String name;
+  String dept:
+  stud(int a, String b, String c) {
+  sno=a;
+  name=b;
+  dept=c;
+}
+public void dispstud() {
+System.out.println("Student no:"+sno);
+System.out.println("Student name: "+name);
+System.out.println("Department: "+dept);
+}
+class mark extends stud {
+  int markl,mark2,mark3;
+  int total:
+  float avg;
+  mark (int ml, int m2, int m3) (
+  markl-ml;
+  mark2-m2;
+  mark3-m3;}
+public void calculate() {
+total
